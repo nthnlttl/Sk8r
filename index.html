@@ -4,9 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>sk8</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/normalize.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./css/main.css" media="screen" title="no title" charset="utf-8"> 
 </head>
 <body>
-    
+    <div class="container">
+        <header class= "topbar">
+            <p>SUBSCRIBE</p>
+            <div class="topbuttons">
+                <button class="fb-top"><i class="fab fa-facebook-f"></i></button>
+                <button class="rss-top"><i class="fas fa-rss"></i></button>
+                <button class="twitter-top"><i class="fab fa-twitter"></i></button>
+                <button class="youtube-top"><i class="fab fa-youtube"></i></button>
+            </div>
+        </header>
+        <nav class="row nav-buttons">
+            <button class="col">— SK8T NEWS —</button>
+            <button class="col">— SKATEBOARDERS —</button>
+            <button class="col">— BOARD DESIGN —</button>
+            <button class="col">— CONACT US —</button>
+        </nav>
+        <div class="card camera-photo">
+            <img class="card-img camera-man" src="images/top-image.png" alt="Camera Man"/>
+            <img class="card-img-overlay grid-dots" src="images/grid.png" alt= "Grid"/>
+            <img class="card-img-overlay logo" src="images/peralta-logo.png" alt="Peralta Logo"/>
+        </div>
+        <div class="row mt-5">
+            <div class="col post1">
+                <h3>Tony Hawk Foundation Raises Big Money At Celeb Fundraiser</h3>
+                <p>October 10, 2013</p>
+                <p>Axle set powerslide masonite rails nose Shawn Dutton. Chicken wing hang up casper slide 720 slam. Boned out soul skate downhill Bam Margera axle Primo slide. Hurricane baseplate boneless gap airwalk hardware full pipe. Baseplate ollie half-flip finger flip nosepicker betty chicken wing.</p>
+                <p class="readmore">[ READ MORE ]</p>
+            </div>
+            <div class="col post2">
+                <h3>Rodney Mullen: Pop an ollie and innovate! (TED Talk)</h3>
+                <p>March 10, 2013</p>
+                <p>Skater roll-in pop shove-it wall ride wax. G-turn bearings tuna-flip nose slide rail slide. Locals stoked sick half-cab grab Steve Severin.Rad fastplant pivot concave air durometer. Bigspin death box skate key stoked coffin flypaper Jason Dill. Full pipe Bare Cover crailtap spine 900 Saran Wrap noseblunt slide.</p>
+                <p class="readmore">[ READ MORE ]</p>
+            </div>
+            <div class="col post3">
+                <h3>Ray Barbee Talks 'Ban This'</h3>
+                <p>Oct 4, 2013</p>
+                <p>Dylan Rieder feeble pressure flip gnarly disaster rad. Coper nosebone bruised heel Kris Markovich skate or die shoveit. Lip pogo birdie half-flip Tracker nosegrind. Nose-bump ollie north drop in ollie hole layback coffin. Kidney kickturn impossible flail rail slide ho-ho. Ollie hole helipop late baseplate bluntslide shoveit risers.</p>
+                <p class="readmore">[ READ MORE ]</p>
+            </div>
+        </div>
+        <div class="row skateboarders">
+            <h2>SKATEBOARDERS</h2>
+            <img src="images/sk8er-4.png" alt="Lance Mountain" class="col-4 skaterboy1">
+            
+            <img src="images/sk8er-3.png" alt="Rodney Mullen" class="col-4 skaterboy2"/>
+            
+            <img src="images/sk8er-2.png" alt="Tommy Guerrero" class="col-4 skaterboy3">
+        </div>
+        <div class="row">    
+            <img src="images/sk8er-1.png" alt="Steve Caballero" class="col-8 skaterboy4">
+        </div>
+        <section class="row skatedecks">
+            <img class="col" src="images/sk8-10.png" alt="panda"/>
+            <img class="col" src="images/sk8-9.png" alt="monkey"/>
+            <img class="col" src="images/sk8-8.png" alt="mess board"/>
+            <img class="col" src="images/sk8-7.png" alt="good mood"/>
+            <img class="col" src="images/sk8-6.png" alt="hungover"/>
+            <img class="col" src="images/sk8-5.png" alt="shecks"/>
+            <img class="col" src="images/sk8-4.png" alt="jesus h"/>
+            <img class="col" src="images/sk8-3.png" alt="rob dyrdek"/>
+            <img class="col" src="images/sk8-2.png" alt="elephant"/>
+            <img class="col" src="images/sk8-1.png" alt="skull"/>
+        </section>
+        <section class="row moreinfo">
+            <h4>Contact Us for More Information</h4>
+            <p class="col-6">
+                Bone air nose grab tailslide locals tail skate key casper slide World Industries. Coper impossible helipop varial tailslide dude Andy Howell crail grab. Wheels mongo late switch boneless front foot impossible shinner.
+            </p>
+            <form class="col-6">
+            <div class="mb-3">
+                <label for="inputName" class="form-label"></label>
+                <input type="name" class="form-control" id="inputName" placeholder="NAME">
+            </div>
+            <div class="mb-3">
+                <label for="inputEmail" class="form-label"></label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="EMAIL">
+            </div>
+            <div class="mb-3 pb-10">
+                <label for="inputYourMessage" class="form-label"></label>
+                <input type="message" class="form-control" id="inputYourMessage" placeholder="YOUR MESSAGE">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </section>
+    </div>
 </body>
 </html>
